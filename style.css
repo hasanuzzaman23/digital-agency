@@ -20,8 +20,7 @@
 
 .banner-container {
   height: 100vh;
-  background-image: url("./asset/image/background.jpg"),
-  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
   background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,21 +42,24 @@
 .description {
   color: white;
   padding: 10px;
-  align-items: center;
+  
+  width: 50%;
+  margin: auto;
 }
 .btn {
   padding: 12px 20px;
   border: none;
 }
-.big-primary {
+.bg-primary {
   background-color: rgb(249, 15, 15);
   color: white;
 }
 
-.service-container {
+.service-container{
   height: 100vh;
+  justify-content: center;
   background-image: url("./asset/image/footer-bg.png"),
-    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
   background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat;
